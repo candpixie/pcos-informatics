@@ -1,6 +1,6 @@
 ### pcos-informatics
-bioinformatics on pcos || ML model analysis
-an independent research project exploring ML and bioinformatics approaches for understanding and analyzing PCOS-related data
+bioinformatics on PCOS | ML model analysis
+- an independent research project exploring ML and bioinformatics approaches for understanding and analyzing PCOS-related data
 
 ### repo structure:
 - `notebooks/` — experiments, EDA, ML models
@@ -8,9 +8,9 @@ an independent research project exploring ML and bioinformatics approaches for u
 - `literature/` — notes on papers
 - `scripts/` — helper functions
 
-#tldr, what's pcos & motivation?
-pcos, aka Polycystic Ovary Syndrome, is a hormonal disorder that affects 10-13% women worldwide (Teede, H. J. et al)
-unfortunately, this yr, I was officially diagnosed with PCOS
+### TLDR, what's PCOS & motivation?
+PCOS, aka Polycystic Ovary Syndrome, is a hormonal disorder that affects 10-13% women worldwide (Teede, H. J. et al)
+unfortunately, at the start of freshman year, I was officially diagnosed with PCOS
 TBH I was not given an actual reason, as there isn't a simple cause for PCOS. 
 In fact, PCOS is understudied and sometimes diagnosis may seem unclear. 
 That's why I decided to help myself to look more into the disease I am having.
