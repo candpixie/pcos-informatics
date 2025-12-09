@@ -1,12 +1,19 @@
 ## What is PCOS?
-Brief notes on diagnostic criteria, symptoms, metabolic patterns.
+Polycystic Ovary Syndrome (PCOS) is a common endocrine and metabolic disorder affecting approximately 8–13% of reproductive-aged women worldwide. It is characterized by hormonal dysregulation, ovarian dysfunction, and metabolic abnormalities. The most widely used diagnostic framework (the Rotterdam Criteria 2003), requires that at least two of the following three features be present: (1) oligo- or anovulation, (2) clinical or biochemical hyperandrogenism, and (3) polycystic ovarian morphology observed on ultrasound. Because these criteria allow for multiple manifestations of the condition, PCOS encompasses a broad spectrum of phenotypes.
 
-## Why ML is useful for PCOS
-- Heterogeneous symptoms
-- Many misdiagnosed patients
-- Multiple phenotypes
-- Hormonal + metabolic data is structured
+## Symptoms
+The clinical presentation of PCOS is various. Common symptoms include irregular or absent menstrual cycles, acne, hirsutism, androgenic alopecia, weight gain, and difficulties with ovulation or fertility. It is also reported increased mood-related symptoms such as anxiety and depression. The variability in presentation contributes to the complexity of timely and accurate diagnosis.
 
-## How can ML be applied for PCOS treatment and diagnosis 
-### treatment 
-### diagnosis
+## Metabolic Patterns
+PCOS is strongly associated with metabolic dysfunction. Insulin resistance is observed in up to 70% of affected individuals and contributes to increased risk for prediabetes and type 2 diabetes (NIH). Other common metabolic features include dyslipidemia (elevated triglycerides and reduced HDL cholesterol), increased BMI or central adiposity, chronic low-grade inflammation, and characteristic hormonal imbalances such as elevated total testosterone and altered LH/FSH ratios. These metabolic markers vary substantially across phenotypes, further complicating diagnostic and treatment decisions.
+
+## Why Machine Learning is Useful for PCOS?
+Machine learning (ML) is well-suited to the study and diagnosis of PCOS for several reasons.
+
+First of all, PCOS presents with highly heterogeneous symptoms that differ significantly between individuals. Traditional diagnostic methods may fail to accommodate this variability, leading to underdiagnosis or misclassification. Secondly, PCOS is frequently misdiagnosed due its symptoms overlap with other endocrine and reproductive disorders. For accurate diagnosis, it requires integrating multiple clinical, hormonal, and metabolic measurements, a task that is challenging to execute consistently through manual evaluation. Thirdly, PCOS includes multiple phenotypes with distinct clinical and metabolic patterns. ML methods are capable of identifying complex interactions among features, but they may not be immediately apparent to clinicians. Lastly, PCOS datasets often contain structured variables such as hormone levels, ultrasound measurements, and metabolic indicators, making them easily accessible to supervised learning approaches.
+
+## Applications of ML in PCOS Diagnosis and Treatment
+### Diagnosis
+ML classification models can be trained to predict PCOS status based on clinical, hormonal, and metabolic features. These models may reduce diagnostic uncertainty, identify high-risk individuals earlier, and support clinicians in differentiating between phenotypes. Approaches such as logistic regression, random forests, support vector machines, and gradient boosting methods can provide prediction probabilities as well as measures of feature importance, offering both accuracy and interpretability.
+### Treatment
+ML can also guide treatment planning and management. Unsupervised learning methods, such as clustering, can identify phenotypic subgroups (for example, metabolic-dominant or hyperandrogenic profiles) that may respond differently to interventions. Predictive models can estimate the likelihood of treatment success for medications such as metformin, lifestyle modification, or ovulation-inducing agents, enabling more personalized care. Moreover, ML can assist in monitoring progression by analyzing longitudinal changes in weight, hormone levels, metabolic markers, or ovulatory function, thereby informing treatment adjustments.
